@@ -11,8 +11,9 @@ import GoogleAnalytics from '@/components/GoogleAnalytics'
 const font = Urbanist({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Store',
-  description: 'Store - The place for all your purchases.',
+  title: 'Shop Islamic Wear for Men, Women, and Children | IslamicFashion.us',
+  description: 'Discover a wide range of Islamic wear for men, women, and children at IslamicFashion.us Find modest and stylish clothing, hijabs, abayas, thobes, and accessories. Shop now for high-quality Islamic fashion.',
+  keywords: 'Islamic wear, Islamic clothing, modest clothing, hijabs, abayas, thobes, Islamic fashion, men`s Islamic wear, women`s Islamic wear, children`s Islamic wear'
 }
 
 export default function RootLayout({
