@@ -6,6 +6,7 @@ import Navbar from '@/components/navbar'
 import Footer from '@/components/footer'
 
 import './globals.css'
+import GoogleAnalytics from '@/components/GoogleAnalytics'
 
 const font = Urbanist({ subsets: ['latin'] })
 
@@ -21,6 +22,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <GoogleAnalytics GA_TRACKING_ID="G-65NCBW6W8F" />
       <body className={font.className}>
         <ToastProvider />
         <ModalProvider />
